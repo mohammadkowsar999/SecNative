@@ -5,6 +5,47 @@ x-seccheck-sig: a1.5.6#NwEAAJQAAABXAAAAKAEAAAMpCJCBG6gss1NtWENQ5NJfZdK6u5ZrsWOdK
 x-seccheck-token: a1.5.6#9wAAABQCAABXAQAAyAEAADXrtoQZCgS6KOzH_RNBIU_sDNHfkyBw5DzH_t2Uyq9o-FJ4Gk0FFULPC8LoZGDVD55D4i1AMLNSDo6p3afkcEEVIJCA_BHeJS59c18wNDZzcY3BuOZphJ9L1-0pvzGFUMvvjIMTOlS29uakXrRvmEdyJvcpGPoebXf5HA6iBOvmGuXYCykRaO7GJ759YMYiqIgjbESKF1rLT-QLEukhi7031E2XACc6oR5IlxkV1ju-67fL8o5vqPZSbSVX2Tsf1Qr7GDh4460zLyX_bOZBG_EsWxPJm-XBe32KJaIHScDQMBGdypVkXIgYUYYzVeWvpe3kHg69Smj3fWMt3ZD9GzTmvtRD7pzV7GK7whwMpvsl3NvhIys8nTyJnIFrArc5imY9H4mlYJSTQIcN0sRX8itaMFLK0-sZhFf-8hRZaEBPjd-SmHaNxtlV6CHjSMuJQdtHOwWC8d1XtTykiDQGmncMiCeQeLfPdwQwlCd08FknWawu2Ujc3sYWtE5Mozmgq0RaiLujudB0QStoSZPUcKdFfOP_tUTvFyt2fjUljCXOV72Y3nChNczsRCRHL9w35oyDq_APjR_rVhXaTc0dgXKgCAiItLTFJ8hPj3jPia78oB0VStR915i31Wp0L28TjTr7Op8wkwW0yWIBszB1_c_D3wPF8O_3AMQdWM_fLlhOCvMZmgLYbvFu73g_LcJPfFUlDU8UZD4w-TIWQIcn2hmTh-W2OQ6EGs3Yd5fFa7Sbo9aLVVPT8A0VBHwQm9Q6F80_QDmhJzUAUqQfICJlov2-shE8Y7pDux4Az4Ri4l9GQXq3RREEVJYfqbDoL8UBEEUk-71Ry5_nOfP0yxBEJQqDPvdlqs3s2dVtdsdoo_kh98ksDID2oHoIQ7w3kulAzLfIpsZtpwhqyEd6eUrAtwvkX_OghBWpn-LUqfuUdPPy3Wrd0vyBkOP_qvYvEOrluIByTG6pjOLXTHCgrazvtlEV1wMscBelAt0q-HKc-XOLEPt7qiwV9V61BLsyOckCbKeaaI_JcWDV1sSJ3bwUd6FEHdl6s4BrPQA3SnV3B7dHt4Wr4w#4E37E891
 ```
 
+币安/Binance
+
+```
+public class SecCheckNative {
+    static {
+        setPaddingEnd.m8282a("com/bina/security/secsdk/SecCheckNative.<clinit>(l1)->java/lang/System.loadLibrary");
+        System.loadLibrary(C3247a.f2272b);
+        setPaddingEnd.m8278e("com/bina/security/secsdk/SecCheckNative.<clinit>(l1)->java/lang/System.loadLibrary");
+    }
+
+    /* renamed from: as */
+    public static native String m93447as(String str, String str2, String str3, String str4, String str5, String str6, String str7, String str8);
+
+    /* renamed from: di */
+    public static native void m93446di();
+
+    /* renamed from: ed */
+    public static native String m93445ed(String str);
+
+    public static native String gcd();
+
+    public static native String gdd();
+
+    /* renamed from: gs */
+    public static native String m93444gs(String str, int i);
+
+    public static native String gsrq(String str);
+
+    public static native String gsrqb(byte[] bArr);
+
+    /* renamed from: gt */
+    public static native String m93443gt(String str);
+
+    /* renamed from: ii */
+    public static native long m93442ii(String str);
+
+    public static native void sgd(String str);
+}
+“System.loadLibrary”，看见它，基本可以确
+```
+
 x-seccheck-sig and x-seccheck-token Algorithm implementation，x-seccheck-sig and x-seccheck-token 对应算法协议实现. 
 
 
